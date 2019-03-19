@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Kravet;
+  font-style: normal;
+  src: url("../fonts/Kravet.ttf");
+}
+@font-face {
+  font-family: Raleway_Regular;
+  font-style: normal;
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: Raleway_Bold;
+  font-style: strong;
+  src: url("../fonts/Raleway-Bold.ttf");
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+header {
+  background-image: url("../img/rideau1.png");
+  background-repeat: repeat;
+  height: 48px;
+  width: 100%;
+}
+footer #footer_background {
+  background-image: url("../img/ecran_capture_large.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 328px;
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}

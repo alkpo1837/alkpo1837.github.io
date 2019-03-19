@@ -1,2 +1,54 @@
-RArt is definitlty the best App ever !<br />
-- A satisfied customer
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="utf-8">
+        <title>RArt</title>
+
+        <!-- <meta name="description" content="Thibault Meyer">
+        <meta name="author" content="XIWEN studio">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="meyer, comptable">
+
+        <meta property="og:url" content="http://www.themium.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Thibault Meyer" />
+        <meta property="og:description" content="Site officiel de Thibault Meyer, comptable" />
+        <meta property="og:image" content="img/favicon_temp.png" /> -->
+
+        <link rel="stylesheet" href="css/general.css">
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+
+        <script>
+            $(document).ready(function()
+            {
+                $( "#div_01_presentation" ).load( "01_presentation.html" );
+                $( "#div_02_app_explanations" ).load( "02_app_explanations.html" );
+                $( "#div_03_team" ).load( "03_team.html" );
+
+                // $(".current_year").text(new Date().getFullYear());
+
+            });</script>
+
+    </head>
+
+    <body>
+        <header>
+        </header>
+
+
+        <main>
+            <div id="div_01_presentation"></div>
+            <div id="div_02_app_explanations"></div>
+            <div id="div_03_team"></div>
+        </main>
+
+        <!-- <footer>
+            <div id="footer_background">
+
+            </div>
+        </footer> -->
+        
+    </body>
+
+</html>

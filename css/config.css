@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Kravet;
+  font-style: normal;
+  src: url("../fonts/Kravet.ttf");
+}
+@font-face {
+  font-family: Raleway_Regular;
+  font-style: normal;
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: Raleway_Bold;
+  font-style: strong;
+  src: url("../fonts/Raleway-Bold.ttf");
+}
