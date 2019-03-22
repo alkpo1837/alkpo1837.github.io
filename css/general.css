@@ -1,17 +1,7 @@
 @font-face {
-  font-family: Kravet;
+  font-family: Elephant;
   font-style: normal;
-  src: url("../fonts/Kravet.ttf");
-}
-@font-face {
-  font-family: Raleway_Regular;
-  font-style: normal;
-  src: url("../fonts/Raleway-Regular.ttf");
-}
-@font-face {
-  font-family: Raleway_Bold;
-  font-style: strong;
-  src: url("../fonts/Raleway-Bold.ttf");
+  src: url("../fonts/Elephant.TTF");
 }
 html {
   scroll-behavior: smooth;
@@ -24,7 +14,7 @@ body {
 header {
   background-image: url("../img/rideau1.png");
   background-repeat: repeat;
-  height: 48px;
+  height: 139px;
   width: 100%;
 }
 footer #footer_background {

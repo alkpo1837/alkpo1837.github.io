@@ -1,0 +1,27 @@
+#div_03_team
+    #div_all_workers
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: space-between;
+        justify-content: space-between;
+        
+        .div_worker
+            flex: 1;
+            max-width: 384px;
+            border-radius: 32px;
+            border: solid black 1px
+            max-width: 250px
+
+@media screen and (max-width: 1376px)
+    #div_03_team
+        #div_all_workers
+            width: 880px;    
+
+@media screen and (max-width: 880px)
+    #div_03_team
+        #div_all_workers
+            flex-direction: column;
+            width: 512px;
