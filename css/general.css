@@ -15,8 +15,6 @@ body {
   margin: 0;
   width: 100%;
   text-align: center;
-}
-body main {
   background-image: url("../img/fond_marbre.png");
   background-repeat: repeat;
   font-family: Overpass;

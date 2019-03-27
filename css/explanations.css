@@ -8,10 +8,10 @@
   font-style: normal;
   src: url("../fonts/Overpass-Regular.ttf");
 }
-#div_02_app_explanations {
+#explanations {
   font-size: 32px;
 }
-#div_02_app_explanations #div_explanations {
+#explanations #instructions_and_mockup_phone {
   display: flex;
   flex-direction: row;
   width: 1200px;
@@ -20,16 +20,16 @@
   align-items: center;
   justify-content: space-between;
 }
-#div_02_app_explanations #div_explanations #div_instructions {
+#explanations #instructions_and_mockup_phone #instructions {
   width: 512px;
 }
-#div_02_app_explanations #div_explanations #div_instructions li p {
+#explanations #instructions_and_mockup_phone #instructions li p {
   text-align: left;
 }
-#div_02_app_explanations #div_explanations #div_mockup_phone img {
+#explanations #instructions_and_mockup_phone #mockup_phone img {
   width: 386px;
 }
-#div_02_app_explanations #div_screenshots {
+#explanations #screenshots {
   display: flex;
   flex-direction: row;
   max-width: 1200px;
@@ -39,15 +39,6 @@
   align-items: center;
   justify-content: space-between;
 }
-#div_02_app_explanations #div_screenshots img {
+#explanations #screenshots img {
   width: 300px;
-}
-@media screen and (max-width: 990px) {
-  #div_02_app_explanations #div_explanations {
-    flex-direction: column;
-    width: auto;
-  }
-  #div_02_app_explanations #div_screenshots {
-    flex-direction: column;
-  }
 }

@@ -1,10 +1,9 @@
 @import 'config.styl'
 
-#div_02_app_explanations
-
+#explanations
 	font-size: 32px
 
-	#div_explanations
+	#instructions_and_mockup_phone
 		display: flex;
 		flex-direction: row;
 		width: 1200px;
@@ -13,19 +12,17 @@
 		align-items: center;
 		justify-content: space-between;
 		
-		#div_instructions
-			// background-color: blue;
+		#instructions
 			width: 512px;
 			li
 				p
-					text-align:left
+					text-align: left
 
-		#div_mockup_phone	
-			// background-color: red;
+		#mockup_phone	
 			img 
 				width: 386px;
 
-	#div_screenshots
+	#screenshots
 		display: flex;
 		flex-direction: row;
 		max-width: 1200px;
@@ -37,11 +34,11 @@
 		img 
 			width: 300px;
 
-@media screen and (max-width: 990px)
-	#div_02_app_explanations
-		#div_explanations
-			flex-direction: column;
-			width: auto;
+// @media screen and (max-width: 990px)
+// 	#explanations
+// 		#instructions_and_mockup_phone
+// 			flex-direction: column;
+// 			width: auto;
 		
-		#div_screenshots
-			flex-direction: column;
+// 		#screenshots
+// 			flex-direction: column;
