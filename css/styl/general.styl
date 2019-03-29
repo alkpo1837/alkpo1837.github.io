@@ -11,6 +11,9 @@ body
 	background-repeat: repeat;
 	font-family: Overpass
 
+	h2
+		font-size: 52px;
+
 header 
 	background-image: url("../img/rideau1.png");
 	background-repeat: repeat;
@@ -26,5 +29,10 @@ footer
 		height: 328px;
 		width: 768px;
 
-		margin-left: auto;
-		margin-right: auto;
+		margin: 0 auto;
+
+@media screen and (max-width: 480px)
+	footer 
+		#footer_background
+			width: 320px;
+			height: 64px;

@@ -46,3 +46,20 @@
   border: 1px solid #000;
   border-radius: 8px;
 }
+@media screen and (max-width: 780px) {
+  #explanations {
+    padding-top: 128px;
+    font-size: 26px;
+  }
+  #explanations #instructions_and_mockup_phone {
+    display: flex;
+    flex-direction: column;
+    width: 386px;
+  }
+  #explanations #instructions_and_mockup_phone #instructions {
+    width: auto;
+  }
+  #explanations #instructions_and_mockup_phone #instructions li p {
+    text-align: left;
+  }
+}

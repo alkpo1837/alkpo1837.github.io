@@ -1,16 +1,21 @@
 #team #all_workers {
   display: flex;
   flex-direction: row;
-  max-width: 1200px;
   margin: 0 auto;
   align-content: space-between;
   justify-content: space-between;
 }
 #team #all_workers .worker {
   background-image: url("../img/panneau_grand.png");
-  flex: 1;
   width: 256px;
-  max-width: 256px;
   height: 384px;
-  max-height: 384px;
+}
+@media screen and (max-width: 480px) {
+  #team #all_workers {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 386px;
+    align-items: center;
+  }
 }
