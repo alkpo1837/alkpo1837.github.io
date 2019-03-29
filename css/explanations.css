@@ -9,6 +9,7 @@
   src: url("../fonts/Overpass-Regular.ttf");
 }
 #explanations {
+  padding-top: 128px;
   font-size: 32px;
 }
 #explanations #instructions_and_mockup_phone {
@@ -30,6 +31,7 @@
   width: 386px;
 }
 #explanations #screenshots {
+  width: 700px;
   display: flex;
   flex-direction: row;
   max-width: 1200px;
@@ -40,5 +42,7 @@
   justify-content: space-between;
 }
 #explanations #screenshots img {
-  width: 300px;
+  width: 200px;
+  border: 1px solid #000;
+  border-radius: 8px;
 }
