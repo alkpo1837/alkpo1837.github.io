@@ -22,13 +22,14 @@
   justify-content: space-between;
 }
 #explanations #instructions_and_mockup_phone #instructions {
-  width: 512px;
+  width: 768px;
 }
 #explanations #instructions_and_mockup_phone #instructions li p {
   text-align: left;
 }
 #explanations #instructions_and_mockup_phone #mockup_phone img {
-  width: 386px;
+  width: 320px;
+  height: auto;
 }
 #explanations #screenshots {
   width: 700px;
@@ -61,5 +62,9 @@
   }
   #explanations #instructions_and_mockup_phone #instructions li p {
     text-align: left;
+  }
+  #explanations #screenshots {
+    width: 386px;
+    flex-direction: column;
   }
 }

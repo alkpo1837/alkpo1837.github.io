@@ -31,14 +31,15 @@ header {
 footer #footer_background {
   background-image: url("../img/ecran_capture_large.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 328px;
   width: 768px;
   margin: 0 auto;
 }
 @media screen and (max-width: 480px) {
   footer #footer_background {
-    width: 320px;
-    height: 64px;
+    height: 128px;
+    background-position: 0% 0%;
+    background-size: 386px 128px;
   }
 }
