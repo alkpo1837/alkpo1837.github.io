@@ -16,8 +16,17 @@
 		#instructions
 			width: 768px;
 			li
+				list-style: none;
 				p
 					text-align: left
+				.instruction_icon
+					width: 48px;
+					height: 48px;
+					vertical-align: bottom;
+					padding-right: 16px;
+				.rart_marker
+					width: 320px;
+					height: auto;
 
 		#mockup_phone	
 			img 
@@ -39,14 +48,14 @@
 			border: 1px solid black;
 			border-radius: 8px;
 
-// @media screen and (max-width: 990px)
-// 	#explanations
-// 		#instructions_and_mockup_phone
-// 			flex-direction: column;
-// 			width: auto;
+@media screen and (max-width: 1200px)
+	#explanations
+		#instructions_and_mockup_phone
+			flex-direction: column-reverse;
+			width: 800px;
 		
-// 		#screenshots
-// 			flex-direction: column;
+		#screenshots
+			flex-direction: column;
 
 @media screen and (max-width: 780px)
 	#explanations
@@ -54,15 +63,29 @@
 		font-size: 26px
 
 		#instructions_and_mockup_phone
-			display: flex;
-			flex-direction: column;
 			width: 386px;
 
 			#instructions
-				width: auto;
+				width: 600px;
 				li
 					p
 						text-align: left
 		#screenshots
 			width: 386px;
 			flex-direction: column;	
+
+@media screen and (max-width: 480px)
+	#explanations
+		font-size: 22px;
+
+		#instructions_and_mockup_phone
+			#instructions
+				width: 320px;
+				ul
+					padding-left: 16px;
+					li
+						.instruction_icon
+							width: 40px;
+							height: 40px;
+							vertical-align: bottom;
+							padding-right: 8px;

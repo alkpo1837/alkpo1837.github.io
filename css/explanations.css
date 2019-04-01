@@ -24,8 +24,21 @@
 #explanations #instructions_and_mockup_phone #instructions {
   width: 768px;
 }
+#explanations #instructions_and_mockup_phone #instructions li {
+  list-style: none;
+}
 #explanations #instructions_and_mockup_phone #instructions li p {
   text-align: left;
+}
+#explanations #instructions_and_mockup_phone #instructions li .instruction_icon {
+  width: 48px;
+  height: 48px;
+  vertical-align: bottom;
+  padding-right: 16px;
+}
+#explanations #instructions_and_mockup_phone #instructions li .rart_marker {
+  width: 320px;
+  height: auto;
 }
 #explanations #instructions_and_mockup_phone #mockup_phone img {
   width: 320px;
@@ -47,18 +60,25 @@
   border: 1px solid #000;
   border-radius: 8px;
 }
+@media screen and (max-width: 1200px) {
+  #explanations #instructions_and_mockup_phone {
+    flex-direction: column-reverse;
+    width: 800px;
+  }
+  #explanations #screenshots {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 780px) {
   #explanations {
     padding-top: 128px;
     font-size: 26px;
   }
   #explanations #instructions_and_mockup_phone {
-    display: flex;
-    flex-direction: column;
     width: 386px;
   }
   #explanations #instructions_and_mockup_phone #instructions {
-    width: auto;
+    width: 600px;
   }
   #explanations #instructions_and_mockup_phone #instructions li p {
     text-align: left;
@@ -66,5 +86,22 @@
   #explanations #screenshots {
     width: 386px;
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  #explanations {
+    font-size: 22px;
+  }
+  #explanations #instructions_and_mockup_phone #instructions {
+    width: 320px;
+  }
+  #explanations #instructions_and_mockup_phone #instructions ul {
+    padding-left: 16px;
+  }
+  #explanations #instructions_and_mockup_phone #instructions ul li .instruction_icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: bottom;
+    padding-right: 8px;
   }
 }

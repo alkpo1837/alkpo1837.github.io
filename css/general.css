@@ -18,9 +18,11 @@ body {
   background-image: url("../img/fond_marbre.png");
   background-repeat: repeat;
   font-family: Overpass;
+  color: #3c3c3c;
 }
 body h2 {
   font-size: 52px;
+  color: #141414;
 }
 header {
   background-image: url("../img/rideau1.png");
