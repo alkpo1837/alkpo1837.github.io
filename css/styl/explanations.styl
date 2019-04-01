@@ -4,6 +4,10 @@
 	padding-top: 128px;
 	font-size: 32px
 
+	a
+		color: rgb(10, 10, 10)
+		font-style: bold;
+
 	#instructions_and_mockup_phone
 		display: flex;
 		flex-direction: row;
@@ -27,6 +31,7 @@
 				.rart_marker
 					width: 320px;
 					height: auto;
+					box-shadow: 4px 4px black;
 
 		#mockup_phone	
 			img 
@@ -37,7 +42,7 @@
 		width: 700px;
 		display: flex;
 		flex-direction: row;
-		max-width: 1200px;
+		width: 1200px;
 		margin-left: auto;
 		margin-right: auto;
 		align-content: space-between;
@@ -48,11 +53,31 @@
 			border: 1px solid black;
 			border-radius: 8px;
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1300px)
 	#explanations
+		#instructions_and_mockup_phone
+			width: 1024px;
+			#instructions
+				width: 512px;
+
+@media screen and (max-width: 1100px)
+	#explanations
+		font-size: 26px
+		#instructions_and_mockup_phone
+			width: 860px;
+		#mockup_phone	
+			img 
+				width: 260px;
+				height: auto;
+
+@media screen and (max-width: 880px)
+	#explanations
+		font-size: 32px
 		#instructions_and_mockup_phone
 			flex-direction: column-reverse;
 			width: 800px;
+			#instructions
+				width: 760px;
 		
 		#screenshots
 			flex-direction: column;
@@ -66,7 +91,7 @@
 			width: 386px;
 
 			#instructions
-				width: 600px;
+				width: 580px;
 				li
 					p
 						text-align: left

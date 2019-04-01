@@ -1,14 +1,14 @@
-h1 {
+#presentation h1 {
   font-family: Elephant;
-  font-size: 96px;
-  margin: 16px auto;
+  font-size: 128px;
+  margin: 32px auto;
   color: #141414;
 }
-h3 {
+#presentation h3 {
   margin: 16px auto;
   font-size: 36px;
 }
-img {
-  padding-top: 32px;
+#presentation img {
+  padding-top: 128px;
   width: 256px;
 }
