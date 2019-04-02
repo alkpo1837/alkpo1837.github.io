@@ -9,6 +9,11 @@
     color: #00f;
   }
 }
+@media only screen and (min-width: 200px) and (max-width: 580px) {
+  #presentation h1 {
+    color: #008000;
+  }
+}
 #presentation h3 {
   margin: 0px 32px;
   font-size: 36px;
