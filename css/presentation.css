@@ -5,10 +5,20 @@
   color: #141414;
 }
 #presentation h3 {
-  margin: 16px auto;
+  margin: 0px auto;
   font-size: 36px;
 }
-#presentation img {
+#presentation .illustration {
+  background-image: url("../img/illus.png");
+  background-size: 726px 500px;
+  background-repeat: no-repeat;
+  width: 726px;
+  height: 500px;
+  margin: auto;
+  margin-top: 96px;
+  border-radius: 16px;
+}
+#presentation .google_play {
   padding-top: 128px;
   width: 256px;
 }
