@@ -18,6 +18,20 @@
   margin-top: 96px;
   border-radius: 16px;
 }
+@media screen and (max-width: 800px) {
+  #presentation .illustration {
+    background-size: 544px 375px;
+    width: 544px;
+    height: 375px;
+  }
+}
+@media screen and (max-width: 580px) {
+  #presentation .illustration {
+    background-size: 363px 250px;
+    width: 363px;
+    height: 250px;
+  }
+}
 #presentation .google_play {
   padding-top: 128px;
   width: 256px;
