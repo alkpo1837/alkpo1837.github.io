@@ -13,10 +13,6 @@
   background-image: url("../img/fond_marbre.png");
   background-repeat: repeat;
 }
-#explanations a {
-  color: #0a0a0a;
-  font-style: bold;
-}
 #explanations #instructions_and_mockup_phone {
   display: flex;
   flex-direction: row;
@@ -82,9 +78,8 @@
     width: 760px;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 780px) {
+@media screen and (max-width: 780px) {
   #explanations {
-    padding-top: 128px;
     font-size: 26px;
   }
   #explanations #instructions_and_mockup_phone {
@@ -101,8 +96,11 @@
   #explanations {
     font-size: 22px;
   }
+  #explanations h2 {
+    padding-top: 16px;
+  }
   #explanations #instructions_and_mockup_phone #instructions {
-    width: 320px;
+    width: 386px;
   }
   #explanations #instructions_and_mockup_phone #instructions ul {
     padding-left: 16px;

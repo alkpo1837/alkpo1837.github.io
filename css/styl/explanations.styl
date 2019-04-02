@@ -5,10 +5,6 @@
 	background-image: url('../img/fond_marbre.png')
 	background-repeat: repeat;
 
-	a
-		color: rgb(10, 10, 10)
-		font-style: bold;
-
 	#instructions_and_mockup_phone
 		display: flex;
 		flex-direction: row;
@@ -65,9 +61,8 @@
 			#instructions
 				width: 760px;
 
-@media screen and (min-width: 480px) and (max-width: 780px)
+@media screen and (max-width: 780px)
 	#explanations
-		padding-top: 128px;
 		font-size: 26px
 
 		#instructions_and_mockup_phone
@@ -82,10 +77,12 @@
 @media screen and (max-width: 480px)
 	#explanations
 		font-size: 22px;
+		h2
+			padding-top: 16px;
 
 		#instructions_and_mockup_phone
 			#instructions
-				width: 320px;
+				width: 386px;
 				ul
 					padding-left: 16px;
 					li

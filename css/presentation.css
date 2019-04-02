@@ -4,19 +4,19 @@
   margin: 32px;
   color: #141414;
 }
-@media only screen and (min-width: 581px) and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   #presentation h1 {
-    color: #00f;
-  }
-}
-@media only screen and (min-width: 200px) and (max-width: 580px) {
-  #presentation h1 {
-    color: #008000;
+    font-size: 92px;
   }
 }
 #presentation h3 {
   margin: 0px 32px;
   font-size: 36px;
+}
+@media screen and (max-width: 800px) {
+  #presentation h3 {
+    font-size: 28px;
+  }
 }
 #presentation .illustration {
   background-image: url("../img/illus.png");
@@ -35,11 +35,18 @@
     height: 375px;
   }
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 620px) {
   #presentation .illustration {
     background-size: 363px 250px;
     width: 363px;
     height: 250px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #presentation .illustration {
+    background-size: 250px 172px;
+    width: 250px;
+    height: 172px;
   }
 }
 #presentation .google_play {

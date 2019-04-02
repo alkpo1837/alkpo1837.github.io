@@ -5,14 +5,14 @@
         margin: 32px;
         color: rgb(20, 20, 20)
 
-        @media only screen and (min-width: 581px) and (max-width: 800px)
-            color: blue;
-        @media only screen and (min-width: 200px) and (max-width: 580px)
-            color: green;   
+        @media screen and (max-width: 800px)
+            font-size: 92px;
 
     h3
         margin: 0px 32px;
         font-size: 36px;
+        @media screen and (max-width: 800px)
+            font-size: 28px;
 
     .illustration
         background-image: url('../img/illus.png');
@@ -29,10 +29,15 @@
             width: 544px;
             height: 375px;
 
-        @media screen and (max-width: 580px)
+        @media screen and (max-width: 620px)
             background-size: 363px 250px;
             width: 363px;
             height: 250px;
+
+        @media screen and (max-width: 400px)
+            background-size: 250px 172px;
+            width: 250px;
+            height: 172px;
 
 
     .google_play    
