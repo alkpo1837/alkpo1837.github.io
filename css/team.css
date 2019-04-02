@@ -8,25 +8,26 @@
   align-items: center;
 }
 #team #all_workers .worker {
-  background-image: url("../img/panneau_grand.png");
-  background-size: contain;
   width: 256px;
   height: 384px;
+  color: #0a0a0a;
+  font-size: 18px;
 }
 #team #all_workers .worker h2 {
   margin: 8px;
 }
 #team #all_workers .worker img {
-  width: 164px;
-  height: 164px;
-  border-radius: 50%;
-  box-shadow: 4px 4px 4px #000;
+  width: 192px;
+  height: 265px;
 }
 #team #all_workers .worker p {
   margin: 8px;
   margin-top: 16px;
-  color: #0a0a0a;
-  font-size: 18px;
+}
+#team #all_workers .worker ul {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
 }
 #team #all_workers .worker a {
   color: #0a0a0a;

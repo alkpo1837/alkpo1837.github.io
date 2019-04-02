@@ -27,6 +27,7 @@
 }
 #explanations #instructions_and_mockup_phone #instructions li {
   list-style: none;
+  padding-bottom: 16px;
 }
 #explanations #instructions_and_mockup_phone #instructions li p {
   text-align: left;
