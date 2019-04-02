@@ -9,8 +9,9 @@
   src: url("../fonts/Overpass-Regular.ttf");
 }
 #explanations {
-  padding-top: 128px;
   font-size: 32px;
+  background-image: url("../img/fond_marbre.png");
+  background-repeat: repeat;
 }
 #explanations a {
   color: #0a0a0a;
