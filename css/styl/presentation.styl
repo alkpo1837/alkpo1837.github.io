@@ -2,11 +2,14 @@
     h1
         font-family: Elephant
         font-size: 128px
-        margin: 32px auto;
+        margin: 32px;
         color: rgb(20, 20, 20)
 
+        @media only screen and (min-width: 581px) and (max-width: 800px)
+            color: blue;
+
     h3
-        margin: 0px auto;
+        margin: 0px 32px;
         font-size: 36px;
 
     .illustration
@@ -19,8 +22,7 @@
         margin-top: 96px;
         border-radius: 16px;
 
-
-        @media screen and (max-width: 800px)
+        @media screen and (min-width: 581px) and (max-width: 800px)
             background-size: 544px 375px;
             width: 544px;
             height: 375px;

@@ -1,11 +1,16 @@
 #presentation h1 {
   font-family: Elephant;
   font-size: 128px;
-  margin: 32px auto;
+  margin: 32px;
   color: #141414;
 }
+@media only screen and (min-width: 581px) and (max-width: 800px) {
+  #presentation h1 {
+    color: #00f;
+  }
+}
 #presentation h3 {
-  margin: 0px auto;
+  margin: 0px 32px;
   font-size: 36px;
 }
 #presentation .illustration {
@@ -18,7 +23,7 @@
   margin-top: 96px;
   border-radius: 16px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 581px) and (max-width: 800px) {
   #presentation .illustration {
     background-size: 544px 375px;
     width: 544px;
