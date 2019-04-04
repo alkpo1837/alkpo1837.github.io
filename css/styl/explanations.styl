@@ -9,6 +9,32 @@
 	h2
 		padding-top: 84px;
 
+	// #instructions_and_mockup_phone
+	// 	display: flex;
+	// 	flex-direction: row;
+	// 	width: 1200px;
+	// 	margin-left: auto;
+	// 	margin-right: auto;
+	// 	align-items: center;
+	// 	justify-content: space-between;
+		
+	// 	#instructions
+	// 		width: 768px;
+	// 		li
+	// 			list-style: none;
+	// 			padding-bottom: 16px 
+	// 			p
+	// 				text-align: left
+	// 			.instruction_icon
+	// 				width: 48px;
+	// 				height: 48px;
+	// 				vertical-align: bottom;
+	// 				padding-right: 16px;
+	// 			.rart_marker
+	// 				width: 320px;
+	// 				height: auto;
+	// 				box-shadow: 4px 4px 8px black;
+
 	#instructions_and_mockup_phone
 		display: flex;
 		flex-direction: row;
@@ -16,32 +42,26 @@
 		margin-left: auto;
 		margin-right: auto;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: space-between
 		
 		#instructions
+			display: flex;
+			flex-direction: column;
 			width: 768px;
-			li
-				list-style: none;
-				padding-bottom: 16px 
-				p
-					text-align: left
+			
+			.instruction_entry
+				display: flex;
+				flex-direction: row;
 				.instruction_icon
 					width: 48px;
 					height: 48px;
-					vertical-align: bottom;
 					padding-right: 16px;
-				.rart_marker
-					width: 320px;
-					height: auto;
-					box-shadow: 4px 4px 8px black;
-			// .scan
-			// 	list-style-image: url('../img/icon/00.png')
-			// .reveal
-			// 	list-style-image: url('../img/icon/01.png')
-			// .guess
-			// 	list-style-image: url('../img/icon/02.png')
-			// .get_infos
-			// 	list-style-image: url('../img/icon/03.png')
+					img 	
+						width: 48px;
+						height: 48px;
+				.instruction_text
+					text-align: left;
+					// padding-right: 16px;
 
 		#mockup_phone	
 			img 

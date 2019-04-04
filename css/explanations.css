@@ -27,25 +27,25 @@
   justify-content: space-between;
 }
 #explanations #instructions_and_mockup_phone #instructions {
+  display: flex;
+  flex-direction: column;
   width: 768px;
 }
-#explanations #instructions_and_mockup_phone #instructions li {
-  list-style: none;
-  padding-bottom: 16px;
+#explanations #instructions_and_mockup_phone #instructions .instruction_entry {
+  display: flex;
+  flex-direction: row;
 }
-#explanations #instructions_and_mockup_phone #instructions li p {
-  text-align: left;
-}
-#explanations #instructions_and_mockup_phone #instructions li .instruction_icon {
+#explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_icon {
   width: 48px;
   height: 48px;
-  vertical-align: bottom;
   padding-right: 16px;
 }
-#explanations #instructions_and_mockup_phone #instructions li .rart_marker {
-  width: 320px;
-  height: auto;
-  box-shadow: 4px 4px 8px #000;
+#explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_icon img {
+  width: 48px;
+  height: 48px;
+}
+#explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text {
+  text-align: left;
 }
 #explanations #instructions_and_mockup_phone #mockup_phone img {
   width: 320px;
