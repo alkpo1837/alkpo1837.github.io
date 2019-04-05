@@ -17,6 +17,10 @@ body
 	a
 		color: rgb(10, 10, 10)
 		font-style: bold;
+		text-decoration: none;
+		&:hover
+			text-decoration: underline;
+
 
 header 
 	background-image: url("../img/rideau1.png");
@@ -44,8 +48,8 @@ header
 
 footer 
 	a 
-		color: rgb(240, 240, 240)
-	
+		color: rgb(175, 175, 175)
+	color: rgb(175, 175, 175)
 	margin-top: 128px;
 	
 	#footer_background
@@ -65,4 +69,10 @@ footer
 			margin-top: auto;
 			margin-bottom: 0;
 			p
+				text-align: center;
+				margin-left: 48px;
+				margin-right: 48px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
 				padding-bottom: 2px;

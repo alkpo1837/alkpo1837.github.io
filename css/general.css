@@ -26,6 +26,10 @@ body h2 {
 body a {
   color: #0a0a0a;
   font-style: bold;
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: underline;
 }
 header {
   background-image: url("../img/rideau1.png");
@@ -55,10 +59,11 @@ header {
   height: 30px;
 }
 footer {
+  color: #afafaf;
   margin-top: 128px;
 }
 footer a {
-  color: #f0f0f0;
+  color: #afafaf;
 }
 footer #footer_background {
   text-align: bottom;
@@ -77,5 +82,11 @@ footer #footer_background div {
   margin-bottom: 0;
 }
 footer #footer_background div p {
+  text-align: center;
+  margin-left: 48px;
+  margin-right: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding-bottom: 2px;
 }
