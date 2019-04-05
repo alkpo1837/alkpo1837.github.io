@@ -34,11 +34,12 @@
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry {
   display: flex;
   flex-direction: row;
+  padding-bottom: 48px;
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_icon {
   width: 48px;
   height: 48px;
-  padding-right: 16px;
+  padding-right: 24px;
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_icon img {
   width: 48px;
@@ -46,6 +47,13 @@
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text {
   text-align: left;
+  padding-top: 8px;
+}
+#explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text .rart_marker {
+  width: 420px;
+  height: auto;
+  margin: 32px;
+  box-shadow: 4px 4px 8px #000;
 }
 #explanations #instructions_and_mockup_phone #mockup_phone img {
   width: 320px;

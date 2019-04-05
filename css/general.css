@@ -54,11 +54,28 @@ header {
   width: 123px;
   height: 30px;
 }
+footer {
+  margin-top: 128px;
+}
+footer a {
+  color: #f0f0f0;
+}
 footer #footer_background {
+  text-align: bottom;
   background-image: url("../img/footer.png");
   background-repeat: no-repeat;
   background-size: 520px 256px;
   height: 256px;
   width: 520px;
   margin: auto;
+}
+footer #footer_background div {
+  height: 256px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+footer #footer_background div p {
+  padding-bottom: 2px;
 }
