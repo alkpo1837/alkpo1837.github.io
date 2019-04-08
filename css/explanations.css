@@ -9,27 +9,34 @@
   src: url("../fonts/Overpass-Regular.ttf");
 }
 #explanations {
-  margin-top: -42px;
   font-size: 32px;
   background-image: url("../img/fond_marbre.png");
   background-repeat: repeat;
+  padding: 64px 0;
 }
 #explanations h2 {
   padding: 64px 0;
 }
-#explanations .scan_instruction {
-  margin: 32px;
+@media screen and (max-width: 480px) {
+  #explanations {
+    font-size: 22px;
+  }
 }
-#explanations .scan_instruction .full_instruction {
+#explanations #scan_instructions .full_instruction {
   font-size: 48px;
 }
-#explanations .scan_instruction .rart_marker {
+#explanations #scan_instructions .rart_marker {
   width: 640px;
   height: auto;
   margin: 32px;
   box-shadow: 4px 4px 8px #000;
 }
-#explanations .scan_instruction .sub_instruction {
+@media screen and (max-width: 880px) {
+  #explanations #scan_instructions .rart_marker {
+    width: 320px;
+  }
+}
+#explanations #scan_instructions .sub_instruction {
   font-size: 26px;
   color: #626262;
 }
@@ -43,10 +50,43 @@
   justify-content: space-between;
   padding-top: 128px;
 }
+@media screen and (max-width: 1300px) {
+  #explanations #instructions_and_mockup_phone {
+    width: 1024px;
+  }
+}
+@media screen and (max-width: 880px) {
+  #explanations #instructions_and_mockup_phone {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 760px;
+  }
+}
 #explanations #instructions_and_mockup_phone #instructions {
   display: flex;
   flex-direction: column;
   width: 768px;
+}
+@media screen and (max-width: 1300px) {
+  #explanations #instructions_and_mockup_phone #instructions {
+    width: 512px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #explanations #instructions_and_mockup_phone #instructions {
+    font-size: 26px;
+    width: 860px;
+  }
+}
+@media screen and (max-width: 880px) {
+  #explanations #instructions_and_mockup_phone #instructions {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #explanations #instructions_and_mockup_phone #instructions {
+    width: 340px;
+  }
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry {
   display: flex;
@@ -59,80 +99,23 @@
   padding-right: 24px;
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_icon img {
-  width: 48px;
-  height: 48px;
+  width: 100%;
+  height: 100%;
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text {
   text-align: left;
   padding-top: 8px;
 }
-#explanations #instructions_and_mockup_phone #mockup_phone img {
+#explanations #instructions_and_mockup_phone #mockup_phone {
   width: 320px;
   height: auto;
 }
-@media screen and (max-width: 1300px) {
-  #explanations #instructions_and_mockup_phone {
-    width: 1024px;
-  }
-  #explanations #instructions_and_mockup_phone #instructions {
-    width: 512px;
-  }
-}
-@media screen and (max-width: 1100px) {
-  #explanations {
-    font-size: 26px;
-  }
-  #explanations #instructions_and_mockup_phone {
-    width: 860px;
-  }
-  #explanations #mockup_phone img {
-    width: 260px;
-    height: auto;
-  }
+#explanations #instructions_and_mockup_phone #mockup_phone img {
+  width: 100%;
+  height: 100%;
 }
 @media screen and (max-width: 880px) {
-  #explanations {
-    font-size: 32px;
-  }
   #explanations #instructions_and_mockup_phone {
-    flex-direction: column;
-    width: 800px;
-  }
-  #explanations #instructions_and_mockup_phone #instructions {
-    width: 760px;
-  }
-}
-@media screen and (max-width: 780px) {
-  #explanations {
-    font-size: 26px;
-  }
-  #explanations #instructions_and_mockup_phone {
-    width: 386px;
-  }
-  #explanations #instructions_and_mockup_phone #instructions {
-    width: 580px;
-  }
-  #explanations #instructions_and_mockup_phone #instructions li p {
-    text-align: left;
-  }
-}
-@media screen and (max-width: 480px) {
-  #explanations {
-    font-size: 22px;
-  }
-  #explanations h2 {
-    padding-top: 16px;
-  }
-  #explanations #instructions_and_mockup_phone #instructions {
-    width: 386px;
-  }
-  #explanations #instructions_and_mockup_phone #instructions ul {
-    padding-left: 16px;
-  }
-  #explanations #instructions_and_mockup_phone #instructions ul li .instruction_icon {
-    width: 40px;
-    height: 40px;
-    vertical-align: bottom;
-    padding-right: 8px;
+    width: 260px;
   }
 }

@@ -1,56 +1,61 @@
 #presentation {
-  margin-bottom: 82px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 1080px;
 }
-#presentation h1 {
+@media screen and (max-width: 880px) {
+  #presentation {
+    display: block;
+  }
+}
+#presentation .sheet_image {
+  width: 512px;
+  height: 1080px;
+}
+#presentation .sheet_image img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 880px) {
+  #presentation .sheet_image {
+    display: none;
+  }
+}
+#presentation .sheet_rotated {
+  transform: scaleX(-1);
+}
+#presentation .presentation_content h1 {
   font-family: Elephant;
   font-size: 128px;
   margin: 32px;
   color: #141414;
 }
 @media screen and (max-width: 800px) {
-  #presentation h1 {
+  #presentation .presentation_content h1 {
     font-size: 92px;
   }
 }
-#presentation h3 {
+#presentation .presentation_content h3 {
   margin: 0px 32px;
   font-size: 36px;
 }
 @media screen and (max-width: 800px) {
-  #presentation h3 {
+  #presentation .presentation_content h3 {
     font-size: 28px;
   }
 }
-#presentation .illustration {
-  background-image: url("../img/illus.png");
-  background-size: 726px 500px;
-  background-repeat: no-repeat;
+#presentation .presentation_content .illustration {
   width: 726px;
   height: 500px;
   margin: auto;
   margin-top: 96px;
   border-radius: 16px;
 }
-@media screen and (min-width: 581px) and (max-width: 800px) {
-  #presentation .illustration {
-    background-size: 544px 375px;
-    width: 544px;
-    height: 375px;
-  }
-}
-@media screen and (max-width: 620px) {
-  #presentation .illustration {
-    background-size: 363px 250px;
-    width: 363px;
-    height: 250px;
-  }
-}
-@media screen and (max-width: 400px) {
-  #presentation .illustration {
-    background-size: 250px 172px;
-    width: 250px;
-    height: 172px;
-  }
+#presentation .presentation_content .illustration img {
+  width: 100%;
+  height: 100%;
 }
 #presentation .google_play {
   padding-top: 128px;
