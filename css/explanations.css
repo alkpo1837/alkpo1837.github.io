@@ -15,7 +15,23 @@
   background-repeat: repeat;
 }
 #explanations h2 {
-  padding-top: 84px;
+  padding: 64px 0;
+}
+#explanations .scan_instruction {
+  margin: 32px;
+}
+#explanations .scan_instruction .full_instruction {
+  font-size: 48px;
+}
+#explanations .scan_instruction .rart_marker {
+  width: 640px;
+  height: auto;
+  margin: 32px;
+  box-shadow: 4px 4px 8px #000;
+}
+#explanations .scan_instruction .sub_instruction {
+  font-size: 26px;
+  color: #626262;
 }
 #explanations #instructions_and_mockup_phone {
   display: flex;
@@ -49,12 +65,6 @@
   text-align: left;
   padding-top: 8px;
 }
-#explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text .rart_marker {
-  width: 420px;
-  height: auto;
-  margin: 32px;
-  box-shadow: 4px 4px 8px #000;
-}
 #explanations #instructions_and_mockup_phone #mockup_phone img {
   width: 320px;
   height: auto;
@@ -84,7 +94,7 @@
     font-size: 32px;
   }
   #explanations #instructions_and_mockup_phone {
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 800px;
   }
   #explanations #instructions_and_mockup_phone #instructions {

@@ -7,33 +7,20 @@
 	background-repeat: repeat;
 
 	h2
-		padding-top: 84px;
+		padding: 64px 0;
 
-	// #instructions_and_mockup_phone
-	// 	display: flex;
-	// 	flex-direction: row;
-	// 	width: 1200px;
-	// 	margin-left: auto;
-	// 	margin-right: auto;
-	// 	align-items: center;
-	// 	justify-content: space-between;
-		
-	// 	#instructions
-	// 		width: 768px;
-	// 		li
-	// 			list-style: none;
-	// 			padding-bottom: 16px 
-	// 			p
-	// 				text-align: left
-	// 			.instruction_icon
-	// 				width: 48px;
-	// 				height: 48px;
-	// 				vertical-align: bottom;
-	// 				padding-right: 16px;
-	// 			.rart_marker
-	// 				width: 320px;
-	// 				height: auto;
-	// 				box-shadow: 4px 4px 8px black;
+	.scan_instruction
+		margin: 32px
+		.full_instruction
+			font-size: 48px;
+		.rart_marker
+			width: 640px;
+			height: auto;
+			margin: 32px;
+			box-shadow: 4px 4px 8px black;
+		.sub_instruction
+			font-size: 26px;
+			color: #626262
 
 	#instructions_and_mockup_phone
 		display: flex;
@@ -63,11 +50,6 @@
 				.instruction_text
 					text-align: left;
 					padding-top: 8px;
-					.rart_marker
-						width: 420px;
-						height: auto;
-						margin: 32px;
-						box-shadow: 4px 4px 8px black;
 
 		#mockup_phone	
 			img 
@@ -95,7 +77,7 @@
 	#explanations
 		font-size: 32px
 		#instructions_and_mockup_phone
-			flex-direction: column-reverse;
+			flex-direction: column;
 			width: 800px;
 			#instructions
 				width: 760px;
