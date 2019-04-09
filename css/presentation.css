@@ -92,6 +92,11 @@
     font-size: 28px;
   }
 }
+@media screen and (max-width: 500px) {
+  #presentation .presentation_content h3 {
+    margin: 0px 16px;
+  }
+}
 #presentation .presentation_content .illustration {
   width: 726px;
   height: 500px;

@@ -19,6 +19,11 @@
     padding: 32px;
   }
 }
+@media screen and (max-width: 500px) {
+  #explanations {
+    padding: 16px;
+  }
+}
 #explanations h2 {
   padding: 64px 0;
 }
@@ -46,6 +51,11 @@
 @media screen and (max-width: 880px) {
   #explanations #scan_instructions .rart_marker {
     width: 320px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #explanations #scan_instructions .rart_marker {
+    width: 280px;
   }
 }
 #explanations #scan_instructions .sub_instruction {
@@ -78,6 +88,11 @@
     align-items: center;
     width: 320px;
     padding-top: 64px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #explanations #instructions_and_mockup_phone {
+    width: 280px;
   }
 }
 #explanations #instructions_and_mockup_phone #instructions {
