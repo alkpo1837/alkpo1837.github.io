@@ -28,7 +28,7 @@
 #explanations #scan_instructions .rart_marker {
   width: 640px;
   height: auto;
-  margin: 32px;
+  margin: 32px 0;
   box-shadow: 4px 4px 8px #000;
 }
 @media screen and (max-width: 880px) {
@@ -59,7 +59,7 @@
   #explanations #instructions_and_mockup_phone {
     flex-direction: column-reverse;
     align-items: center;
-    width: 760px;
+    width: 320px;
   }
 }
 #explanations #instructions_and_mockup_phone #instructions {
@@ -85,7 +85,7 @@
 }
 @media screen and (max-width: 480px) {
   #explanations #instructions_and_mockup_phone #instructions {
-    width: 340px;
+    width: 320px;
   }
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry {
@@ -95,6 +95,7 @@
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_icon {
   width: 48px;
+  min-width: 48px;
   height: 48px;
   padding-right: 24px;
 }
@@ -115,7 +116,7 @@
   height: 100%;
 }
 @media screen and (max-width: 880px) {
-  #explanations #instructions_and_mockup_phone {
+  #explanations #instructions_and_mockup_phone #mockup_phone {
     width: 260px;
   }
 }

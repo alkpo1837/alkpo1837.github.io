@@ -8,6 +8,7 @@
 @media screen and (max-width: 880px) {
   #presentation {
     display: block;
+    height: 720px;
   }
 }
 #presentation .sheet_image {
@@ -102,7 +103,19 @@
   width: 100%;
   height: 100%;
 }
-#presentation .google_play {
+@media screen and (max-width: 880px) {
+  #presentation .presentation_content .illustration {
+    width: 320px;
+    height: 180px;
+  }
+}
+#presentation .presentation_content .google_play {
   padding-top: 128px;
   width: 256px;
+}
+@media screen and (max-width: 880px) {
+  #presentation .presentation_content .google_play {
+    padding-top: 64px;
+    width: 192px;
+  }
 }
