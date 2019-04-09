@@ -55,31 +55,58 @@ header
 
 footer 
 	a 
-		color: rgb(175, 175, 175)
-	color: rgb(175, 175, 175)
+		color: rgb(240, 240, 240)
+
+	color: rgb(240, 240, 240)
 	margin-top: 128px;
 	
+	// Footer has a ratio of 2.55 (1043 x 409)
 	#footer_background
 		text-align: bottom;
 		background-image: url("../img/footer.png");
 		background-repeat: no-repeat;
-		background-size: 520px 256px;
-		height: 256px;
+		background-size: 520px 204px;
 		width: 520px;
+		height: 204px;
 
 		margin: auto;
 
-		div
-			height: 256px;
+		@media screen and (max-width: 560px)
+			background-size: 320px 125px;
+			width: 320px;
+			height: 125px;
+
+		#footer_content
 			display: flex;
-			flex-direction: column-reverse
-			margin-top: auto;
-			margin-bottom: 0;
-			p
-				text-align: center;
-				margin-left: 48px;
-				margin-right: 48px;
-				display: flex;
-				flex-direction: row;
-				justify-content: space-between;
-				padding-bottom: 2px;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+
+			width: 520px;
+			
+			padding-top: 152px;
+
+			@media screen and (max-width: 560px)
+				font-size: 14px;
+				width: 320px
+				padding-top: 95px;
+
+			.footer_icon
+				width: 32px;
+				height: 32px;
+				padding-left: 16px;
+				color: rgb(240, 240, 240)
+				img 
+					width: 100%;
+					height: 100%;
+
+				@media screen and (max-width: 560px)
+					width: 18px;
+					height: 18px;
+					padding-left: 8px
+
+			.first_icon
+				margin-left: 32px;
+
+				@media screen and (max-width: 560px)
+					margin-left: 16px;

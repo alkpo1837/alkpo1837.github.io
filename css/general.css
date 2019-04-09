@@ -64,34 +64,65 @@ header {
   height: 30px;
 }
 footer {
-  color: #afafaf;
+  color: #f0f0f0;
   margin-top: 128px;
 }
 footer a {
-  color: #afafaf;
+  color: #f0f0f0;
 }
 footer #footer_background {
   text-align: bottom;
   background-image: url("../img/footer.png");
   background-repeat: no-repeat;
-  background-size: 520px 256px;
-  height: 256px;
+  background-size: 520px 204px;
   width: 520px;
+  height: 204px;
   margin: auto;
 }
-footer #footer_background div {
-  height: 256px;
-  display: flex;
-  flex-direction: column-reverse;
-  margin-top: auto;
-  margin-bottom: 0;
+@media screen and (max-width: 560px) {
+  footer #footer_background {
+    background-size: 320px 125px;
+    width: 320px;
+    height: 125px;
+  }
 }
-footer #footer_background div p {
-  text-align: center;
-  margin-left: 48px;
-  margin-right: 48px;
+footer #footer_background #footer_content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 2px;
+  align-items: center;
+  justify-content: center;
+  width: 520px;
+  padding-top: 152px;
+}
+@media screen and (max-width: 560px) {
+  footer #footer_background #footer_content {
+    font-size: 14px;
+    width: 320px;
+    padding-top: 95px;
+  }
+}
+footer #footer_background #footer_content .footer_icon {
+  width: 32px;
+  height: 32px;
+  padding-left: 16px;
+  color: #f0f0f0;
+}
+footer #footer_background #footer_content .footer_icon img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 560px) {
+  footer #footer_background #footer_content .footer_icon {
+    width: 18px;
+    height: 18px;
+    padding-left: 8px;
+  }
+}
+footer #footer_background #footer_content .first_icon {
+  margin-left: 32px;
+}
+@media screen and (max-width: 560px) {
+  footer #footer_background #footer_content .first_icon {
+    margin-left: 16px;
+  }
 }

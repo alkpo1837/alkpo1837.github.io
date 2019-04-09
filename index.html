@@ -27,7 +27,8 @@
                 $( "#presentation" ).load( "01_presentation.html" );
                 $( "#explanations" ).load( "02_explanations.html" );
                 $( "#team" ).load( "03_team.html" );
-                // $(".current_year").text(new Date().getFullYear());
+                
+                $(".current_year").text(new Date().getFullYear());
             });
 
             </script>
@@ -60,18 +61,25 @@
 
         <footer>
             <div id="footer_background">
-                <div>
-                    <p>
-                        <span class="footer_text">
-                        Site web créé par <a href="mailto:capo.arthur@gmail.com">Arthur Capo</a>
-                        </span>
-                        <span class="footer_text">
-                            2019
-                        </span>
-                    </p>
-                    <p>
-
-                    </p>
+                <div id="footer_content">
+                    <div class="credit_ac">
+                        © Arthur Capo - <span class="current_year"></span>
+                    </div>
+                    <div class="footer_icon first_icon">
+                        <a href="mailto:capo.arthur@gmail.com">
+                            <img src="img/icon/mail.svg" />
+                        </a>
+                    </div>
+                    <div class="footer_icon">
+                        <a href="https://github.com/alkpo1837/">
+                            <img src="img/icon/github.svg" />
+                        </a>
+                    </div>
+                    <div class="footer_icon">
+                        <a href="https://www.linkedin.com/in/arthur-capo-1472a6108/">
+                            <img src="img/icon/linkedin.svg" />
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
