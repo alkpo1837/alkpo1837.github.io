@@ -8,21 +8,16 @@
   font-style: normal;
   src: url("../fonts/Overpass-Regular.ttf");
 }
+@font-face {
+  font-family: OverpassBold;
+  font-style: bold;
+  src: url("../fonts/Overpass-ExtraBold.ttf");
+}
 #explanations {
   font-size: 32px;
   background-image: url("../img/fond_marbre.png");
   background-repeat: repeat;
   padding: 64px 0;
-}
-@media screen and (max-width: 880px) {
-  #explanations {
-    padding: 32px;
-  }
-}
-@media screen and (max-width: 500px) {
-  #explanations {
-    padding: 16px;
-  }
 }
 #explanations h2 {
   padding: 64px 0;
@@ -32,12 +27,13 @@
     font-size: 22px;
   }
 }
-#explanations #scan_instructions .full_instruction {
+#explanations #scan_instructions .scan_marker {
   font-size: 48px;
+  font-family: OverpassBold;
   font-weight: bold;
 }
 @media screen and (max-width: 500px) {
-  #explanations #scan_instructions .full_instruction {
+  #explanations #scan_instructions .scan_marker {
     font-size: 38px;
     margin: 0 16px;
   }
@@ -58,6 +54,11 @@
     width: 280px;
   }
 }
+@media screen and (max-width: 320px) {
+  #explanations #scan_instructions .rart_marker {
+    width: 240px;
+  }
+}
 #explanations #scan_instructions .sub_instruction {
   font-size: 26px;
   color: #626262;
@@ -70,17 +71,12 @@
 #explanations #instructions_and_mockup_phone {
   display: flex;
   flex-direction: row;
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   align-items: top;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 128px;
-}
-@media screen and (max-width: 1300px) {
-  #explanations #instructions_and_mockup_phone {
-    width: 1024px;
-  }
+  width: 1024px;
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone {
@@ -95,21 +91,29 @@
     width: 280px;
   }
 }
+#explanations #instructions_and_mockup_phone #mockup_phone {
+  width: 320px;
+  height: auto;
+  margin-right: 72px;
+}
+@media screen and (max-width: 880px) {
+  #explanations #instructions_and_mockup_phone #mockup_phone {
+    margin-right: 0px;
+  }
+}
+#explanations #instructions_and_mockup_phone #mockup_phone img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 420px) {
+  #explanations #instructions_and_mockup_phone #mockup_phone {
+    width: 260px;
+  }
+}
 #explanations #instructions_and_mockup_phone #instructions {
   display: flex;
   flex-direction: column;
-  width: 768px;
-}
-@media screen and (max-width: 1300px) {
-  #explanations #instructions_and_mockup_phone #instructions {
-    width: 512px;
-  }
-}
-@media screen and (max-width: 1100px) {
-  #explanations #instructions_and_mockup_phone #instructions {
-    font-size: 26px;
-    width: 860px;
-  }
+  width: 512px;
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone #instructions {
@@ -143,6 +147,12 @@
   height: 48px;
   padding-right: 24px;
 }
+@media screen and (max-width: 880px) {
+  #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_icon {
+    text-align: center;
+    padding-right: 0px;
+  }
+}
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_icon img {
   width: 100%;
   height: 100%;
@@ -150,22 +160,10 @@
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text {
   text-align: left;
   padding-top: 8px;
+  max-width: 440px;
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text {
     text-align: center;
-  }
-}
-#explanations #instructions_and_mockup_phone #mockup_phone {
-  width: 320px;
-  height: auto;
-}
-#explanations #instructions_and_mockup_phone #mockup_phone img {
-  width: 100%;
-  height: 100%;
-}
-@media screen and (max-width: 880px) {
-  #explanations #instructions_and_mockup_phone #mockup_phone {
-    width: 260px;
   }
 }

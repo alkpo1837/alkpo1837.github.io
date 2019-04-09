@@ -8,6 +8,11 @@
   font-style: normal;
   src: url("../fonts/Overpass-Regular.ttf");
 }
+@font-face {
+  font-family: OverpassBold;
+  font-style: bold;
+  src: url("../fonts/Overpass-ExtraBold.ttf");
+}
 html {
   scroll-behavior: smooth;
 }
@@ -64,11 +69,8 @@ header {
   height: 30px;
 }
 footer {
-  color: #f0f0f0;
+  color: #beaea7;
   margin-top: 128px;
-}
-footer a {
-  color: #f0f0f0;
 }
 @media screen and (max-width: 880px) {
   footer {
@@ -91,6 +93,13 @@ footer #footer_background {
     height: 125px;
   }
 }
+@media screen and (max-width: 340px) {
+  footer #footer_background {
+    background-size: 240px 92px;
+    width: 240px;
+    height: 92px;
+  }
+}
 footer #footer_background #footer_content {
   display: flex;
   flex-direction: row;
@@ -104,6 +113,12 @@ footer #footer_background #footer_content {
     font-size: 14px;
     width: 320px;
     padding-top: 95px;
+  }
+}
+@media screen and (max-width: 340px) {
+  footer #footer_background #footer_content {
+    width: 240px;
+    padding-top: 64px;
   }
 }
 footer #footer_background #footer_content .footer_icon {

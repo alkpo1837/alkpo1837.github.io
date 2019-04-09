@@ -8,3 +8,8 @@
   font-style: normal;
   src: url("../fonts/Overpass-Regular.ttf");
 }
+@font-face {
+  font-family: OverpassBold;
+  font-style: bold;
+  src: url("../fonts/Overpass-ExtraBold.ttf");
+}

@@ -50,11 +50,8 @@ header
 		height: 30px;
 
 footer 
-	
-	a 
-		color: rgb(240, 240, 240)
 
-	color: rgb(240, 240, 240)
+	color: hsla(18, 15%, 70%, 1)
 	margin-top: 128px;
 
 	@media screen and (max-width: 880px)
@@ -75,6 +72,11 @@ footer
 			width: 320px;
 			height: 125px;
 
+		@media screen and (max-width: 340px)
+			background-size: 240px 92px;
+			width: 240px;
+			height: 92px;
+
 		#footer_content
 			display: flex;
 			flex-direction: row;
@@ -89,6 +91,10 @@ footer
 				font-size: 14px;
 				width: 320px
 				padding-top: 95px;
+
+			@media screen and (max-width: 340px)
+				width: 240px;
+				padding-top: 64px;
 
 			.footer_icon
 				width: 32px;
