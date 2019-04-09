@@ -7,6 +7,9 @@
 	background-repeat: repeat;
 	padding: 64px 0;
 
+	@media screen and (max-width: 880px)
+		padding: 32px;
+
 	h2
 		padding: 64px 0;
 
@@ -16,6 +19,12 @@
 	#scan_instructions
 		.full_instruction
 			font-size: 48px;
+			font-weight: bold;
+			
+			@media screen and (max-width: 500px)
+				font-size: 38px;
+				margin: 0 16px
+
 		.rart_marker
 			width: 640px;
 			height: auto;
@@ -28,6 +37,9 @@
 		.sub_instruction
 			font-size: 26px;
 			color: #626262
+
+			@media screen and (max-width: 500px)
+				font-size: 16px;
 
 	#instructions_and_mockup_phone
 		display: flex;
@@ -45,6 +57,7 @@
 			flex-direction: column-reverse
 			align-items: center
 			width: 320px;
+			padding-top: 64px;
 			
 		#instructions
 			display: flex;
@@ -58,6 +71,8 @@
 				width: 860px;
 			@media screen and (max-width: 880px)
 				width: 600px;
+			@media screen and (max-width: 640px)
+				width: 440px;
 			@media screen and (max-width: 480px)
 				width: 320px;
 
@@ -65,6 +80,11 @@
 				display: flex;
 				flex-direction: row;
 				padding-bottom: 48px;
+
+				@media screen and (max-width: 880px)
+					flex-direction: column;
+					align-items: center;
+
 				.instruction_icon
 					width: 48px;
 					min-width: 48px;
@@ -76,6 +96,9 @@
 				.instruction_text
 					text-align: left;
 					padding-top: 8px;
+
+					@media screen and (max-width: 880px)
+						text-align: center;
 
 		#mockup_phone	
 			width: 320px;
