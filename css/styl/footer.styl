@@ -1,0 +1,39 @@
+footer 
+	color: hsla(18, 15%, 70%, 1)
+	margin-top: 128px;
+
+	@media screen and (max-width: 880px)
+		margin-top: 0px;
+	
+	// Footer has a ratio of 2.55 (1043 x 409)
+	#footer_background
+		text-align: bottom;
+		background-image: url("../img/footer.png");
+		background-repeat: no-repeat;
+		background-size: 520px 204px;
+		width: 520px;
+		height: 204px;
+		margin: auto;
+
+		@media screen and (max-width: 560px)
+			background-size: 320px 125px;
+			width: 320px;
+			height: 125px;
+
+		@media screen and (max-width: 340px)
+			background-size: 240px 92px;
+			width: 240px;
+			height: 92px;
+
+		#footer_content
+			width: 520px;
+			padding-top: 160px;
+
+			@media screen and (max-width: 560px)
+				font-size: 14px;
+				width: 320px
+				padding-top: 95px;
+
+			@media screen and (max-width: 340px)
+				width: 240px;
+				padding-top: 64px;
