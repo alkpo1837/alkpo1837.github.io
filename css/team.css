@@ -53,20 +53,19 @@
 #team #all_workers .worker h2 {
   margin: 8px;
 }
-#team #all_workers .worker img {
+#team #all_workers .worker .worker_image {
   width: 192px;
   height: 265px;
-}
-#team #all_workers .worker p {
-  margin: 8px;
-  margin-top: 16px;
 }
 #team #all_workers .worker ul {
   padding-left: 0;
   list-style: none;
   text-align: center;
 }
-#team #all_workers .worker a {
-  color: #0a0a0a;
-  font-weight: bold;
+#team #all_workers .worker .website_icon {
+  width: 32px;
+  height: 32px;
+}
+#team #all_workers .worker .websites li {
+  display: inline-block;
 }
