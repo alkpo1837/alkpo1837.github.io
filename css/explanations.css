@@ -17,7 +17,6 @@
   font-size: 32px;
   background-image: url("../img/fond_marbre.png");
   background-repeat: repeat;
-  padding: 64px 0;
 }
 #explanations h2 {
   padding: 64px 0;
@@ -28,20 +27,25 @@
   }
 }
 #explanations #scan_instructions .scan_marker {
-  font-size: 48px;
+  font-size: 50px;
   font-family: OverpassBold;
   font-weight: bold;
+  padding: 64px 0;
 }
 @media screen and (max-width: 500px) {
   #explanations #scan_instructions .scan_marker {
     font-size: 38px;
-    margin: 0 16px;
+    padding: 32px 0;
   }
 }
 #explanations #scan_instructions .rart_marker {
   width: 640px;
   height: auto;
-  margin: 32px 0;
+  margin: 0px auto;
+}
+#explanations #scan_instructions .rart_marker img {
+  width: 100%;
+  height: 100%;
   box-shadow: 4px 4px 8px #000;
 }
 @media screen and (max-width: 880px) {
@@ -60,6 +64,7 @@
   }
 }
 #explanations #scan_instructions .sub_instruction {
+  margin-top: 32px;
   font-size: 26px;
   color: #626262;
 }
@@ -73,9 +78,9 @@
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  align-items: top;
   justify-content: center;
   padding-top: 128px;
+  padding-bottom: 32px;
   width: 1024px;
 }
 @media screen and (max-width: 880px) {
@@ -114,6 +119,7 @@
   display: flex;
   flex-direction: column;
   width: 512px;
+  padding-bottom: 32px;
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone #instructions {
@@ -134,11 +140,13 @@
   display: flex;
   flex-direction: row;
   padding-bottom: 48px;
+  margin: 16px;
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone #instructions .instruction_entry {
     flex-direction: column;
     align-items: center;
+    font-size: 28px;
   }
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_icon {

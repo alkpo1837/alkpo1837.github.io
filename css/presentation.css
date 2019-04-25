@@ -3,12 +3,10 @@
   flex-direction: row;
   justify-content: space-between;
   width: auto;
-  height: 1080px;
 }
 @media screen and (max-width: 880px) {
   #presentation {
     display: block;
-    height: 720px;
   }
 }
 #presentation .sheet_image {
@@ -66,12 +64,16 @@
   height: 100%;
 }
 #presentation .presentation_content .google_play {
-  padding-top: 128px;
+  margin: 64px auto;
   width: 256px;
 }
-@media screen and (max-width: 880px) {
+#presentation .presentation_content .google_play img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 520px) {
   #presentation .presentation_content .google_play {
-    padding-top: 64px;
+    margin: 64px auto;
     width: 192px;
   }
 }

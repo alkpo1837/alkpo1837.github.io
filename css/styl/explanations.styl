@@ -4,7 +4,7 @@
 	font-size: 32px
 	background-image: url('../img/fond_marbre.png')
 	background-repeat: repeat;
-	padding: 64px 0;
+	// padding: 64px 0;
 
 	h2
 		padding: 64px 0;
@@ -14,19 +14,25 @@
 
 	#scan_instructions
 		.scan_marker
-			font-size: 48px;
+			font-size: 50px;
 			font-family: OverpassBold
 			font-weight: bold;
+			padding: 64px 0;
 			
 			@media screen and (max-width: 500px)
 				font-size: 38px;
-				margin: 0 16px
+				padding: 32px 0;
 
 		.rart_marker
 			width: 640px;
 			height: auto;
-			margin: 32px 0;
-			box-shadow: 4px 4px 8px black;
+			margin: 0px auto;
+			
+			img 
+				width: 100%;
+				height: 100%;
+				box-shadow: 4px 4px 8px black;
+
 
 			@media screen and (max-width: 880px)
 				width: 320px;
@@ -38,6 +44,7 @@
 				width: 240px;
 
 		.sub_instruction
+			margin-top: 32px
 			font-size: 26px;
 			color: #626262
 
@@ -49,9 +56,9 @@
 		flex-direction: row;
 		margin-left: auto;
 		margin-right: auto;
-		align-items: top;
 		justify-content: center
 		padding-top: 128px;
+		padding-bottom: 32px;
 		width: 1024px;
 
 		@media screen and (max-width: 880px)
@@ -81,6 +88,7 @@
 			display: flex;
 			flex-direction: column;
 			width: 512px;
+			padding-bottom: 32px;
 
 			@media screen and (max-width: 880px)
 				width: 600px;
@@ -93,10 +101,12 @@
 				display: flex;
 				flex-direction: row;
 				padding-bottom: 48px;
+				margin: 16px;
 
 				@media screen and (max-width: 880px)
 					flex-direction: column;
 					align-items: center;
+					font-size: 28px;
 
 				.instruction_icon
 					width: 48px;
