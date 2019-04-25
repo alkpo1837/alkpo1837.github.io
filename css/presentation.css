@@ -11,10 +11,10 @@
   }
 }
 #presentation #top_content .sheet_image {
-  width: 256px;
-  min-width: 256px;
-  max-width: 256px;
-  height: 1080px;
+  width: 220px;
+  min-width: 220px;
+  max-width: 220px;
+  height: 880px;
 }
 #presentation #top_content .sheet_image img {
   width: 100%;
@@ -33,7 +33,7 @@
   flex-direction: row;
   justify-content: space-around;
   width: 85%;
-  height: 780px;
+  height: 650px;
   padding-top: 128px;
 }
 @media screen and (max-width: 880px) {
