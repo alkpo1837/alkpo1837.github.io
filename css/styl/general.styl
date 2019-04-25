@@ -15,7 +15,7 @@ body
 		font-size: 52px;
 		color: rgb(20, 20, 20)
 	a
-		color: rgb(10, 10, 10)
+		color: #662e2d
 		font-style: bold;
 		text-decoration: none;
 		&:hover
@@ -31,13 +31,6 @@ header
 	@media screen and (min-width: 880px)
 		display: none;
 
-.frame_separator_2
-	height: 128px;
-	width: 100%;
-	background-image: url('../img/borders_marbre.jpg')
-	background-repeat: repeat-x;
-	background-size: contain;
-
 .frame_separator
 	display: flex;
 	flex-direction: row;
@@ -48,7 +41,6 @@ header
 		height: 30px;
 	.middle_corner
 		background-image: url('../img/middle_part.png')
-		background-position: 256px 0px center;
 		background-repeat: repeat-x;
 		background-size: contain;
 		width: 2048px;
@@ -56,70 +48,3 @@ header
 	.right_corner
 		width: 123px;
 		height: 30px;
-
-footer 
-
-	color: hsla(18, 15%, 70%, 1)
-	margin-top: 128px;
-
-	@media screen and (max-width: 880px)
-		margin-top: 0px;
-	
-	// Footer has a ratio of 2.55 (1043 x 409)
-	#footer_background
-		text-align: bottom;
-		background-image: url("../img/footer.png");
-		background-repeat: no-repeat;
-		background-size: 520px 204px;
-		width: 520px;
-		height: 204px;
-		margin: auto;
-
-		@media screen and (max-width: 560px)
-			background-size: 320px 125px;
-			width: 320px;
-			height: 125px;
-
-		@media screen and (max-width: 340px)
-			background-size: 240px 92px;
-			width: 240px;
-			height: 92px;
-
-		#footer_content
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			justify-content: center;
-
-			width: 520px;
-			
-			padding-top: 152px;
-
-			@media screen and (max-width: 560px)
-				font-size: 14px;
-				width: 320px
-				padding-top: 95px;
-
-			@media screen and (max-width: 340px)
-				width: 240px;
-				padding-top: 64px;
-
-			.footer_icon
-				width: 32px;
-				height: 32px;
-				padding-left: 16px;
-				color: rgb(240, 240, 240)
-				img 
-					width: 100%;
-					height: 100%;
-
-				@media screen and (max-width: 560px)
-					width: 18px;
-					height: 18px;
-					padding-left: 8px
-
-			.first_icon
-				margin-left: 32px;
-
-				@media screen and (max-width: 560px)
-					margin-left: 16px;

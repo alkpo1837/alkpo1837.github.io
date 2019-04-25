@@ -31,6 +31,8 @@ footer #footer_background {
   }
 }
 footer #footer_background #footer_content {
+  display: flex;
+  flex-direction: row;
   width: 520px;
   padding-top: 160px;
 }

@@ -29,7 +29,7 @@ body h2 {
   color: #141414;
 }
 body a {
-  color: #0a0a0a;
+  color: #662e2d;
   font-style: bold;
   text-decoration: none;
 }
@@ -47,13 +47,6 @@ header {
     display: none;
   }
 }
-.frame_separator_2 {
-  height: 128px;
-  width: 100%;
-  background-image: url("../img/borders_marbre.jpg");
-  background-repeat: repeat-x;
-  background-size: contain;
-}
 .frame_separator {
   display: flex;
   flex-direction: row;
@@ -66,7 +59,6 @@ header {
 }
 .frame_separator .middle_corner {
   background-image: url("../img/middle_part.png");
-  background-position: 256px 0px center;
   background-repeat: repeat-x;
   background-size: contain;
   width: 2048px;
@@ -75,82 +67,4 @@ header {
 .frame_separator .right_corner {
   width: 123px;
   height: 30px;
-}
-footer {
-  color: #beaea7;
-  margin-top: 128px;
-}
-@media screen and (max-width: 880px) {
-  footer {
-    margin-top: 0px;
-  }
-}
-footer #footer_background {
-  text-align: bottom;
-  background-image: url("../img/footer.png");
-  background-repeat: no-repeat;
-  background-size: 520px 204px;
-  width: 520px;
-  height: 204px;
-  margin: auto;
-}
-@media screen and (max-width: 560px) {
-  footer #footer_background {
-    background-size: 320px 125px;
-    width: 320px;
-    height: 125px;
-  }
-}
-@media screen and (max-width: 340px) {
-  footer #footer_background {
-    background-size: 240px 92px;
-    width: 240px;
-    height: 92px;
-  }
-}
-footer #footer_background #footer_content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 520px;
-  padding-top: 152px;
-}
-@media screen and (max-width: 560px) {
-  footer #footer_background #footer_content {
-    font-size: 14px;
-    width: 320px;
-    padding-top: 95px;
-  }
-}
-@media screen and (max-width: 340px) {
-  footer #footer_background #footer_content {
-    width: 240px;
-    padding-top: 64px;
-  }
-}
-footer #footer_background #footer_content .footer_icon {
-  width: 32px;
-  height: 32px;
-  padding-left: 16px;
-  color: #f0f0f0;
-}
-footer #footer_background #footer_content .footer_icon img {
-  width: 100%;
-  height: 100%;
-}
-@media screen and (max-width: 560px) {
-  footer #footer_background #footer_content .footer_icon {
-    width: 18px;
-    height: 18px;
-    padding-left: 8px;
-  }
-}
-footer #footer_background #footer_content .first_icon {
-  margin-left: 32px;
-}
-@media screen and (max-width: 560px) {
-  footer #footer_background #footer_content .first_icon {
-    margin-left: 16px;
-  }
 }

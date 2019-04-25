@@ -31,11 +31,13 @@
   font-family: OverpassBold;
   font-weight: bold;
   padding: 64px 0;
+  padding-bottom: 32px;
 }
 @media screen and (max-width: 500px) {
   #explanations #scan_instructions .scan_marker {
     font-size: 38px;
     padding: 32px 0;
+    padding-bottom: 16px;
   }
 }
 #explanations #scan_instructions .rart_marker {
@@ -80,7 +82,7 @@
   margin-right: auto;
   justify-content: center;
   padding-top: 128px;
-  padding-bottom: 32px;
+  padding-bottom: 64px;
   width: 1024px;
 }
 @media screen and (max-width: 880px) {
@@ -167,8 +169,8 @@
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text {
   text-align: left;
-  padding-top: 8px;
   max-width: 440px;
+  padding-top: 4px;
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text {
