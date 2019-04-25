@@ -1,79 +1,120 @@
-#presentation {
+#presentation #top_content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: auto;
 }
 @media screen and (max-width: 880px) {
-  #presentation {
+  #presentation #top_content {
     display: block;
+    height: auto;
   }
 }
-#presentation .sheet_image {
+#presentation #top_content .sheet_image {
   width: 256px;
   min-width: 256px;
   max-width: 256px;
   height: 1080px;
 }
-#presentation .sheet_image img {
+#presentation #top_content .sheet_image img {
   width: 100%;
   height: 100%;
 }
 @media screen and (max-width: 880px) {
-  #presentation .sheet_image {
+  #presentation #top_content .sheet_image {
     display: none;
   }
 }
-#presentation .right_sheet {
+#presentation #top_content .right_sheet {
   transform: scaleX(-1);
 }
-#presentation .presentation_content h1 {
+#presentation #top_content .presentation_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 85%;
+  height: 780px;
+  padding-top: 128px;
+}
+@media screen and (max-width: 880px) {
+  #presentation #top_content .presentation_content {
+    display: block;
+    width: 100%;
+    padding-top: 32px;
+    height: auto;
+  }
+}
+#presentation #top_content .presentation_content .name_and_catchphrase {
+  width: 430px;
+}
+@media screen and (max-width: 880px) {
+  #presentation #top_content .presentation_content .name_and_catchphrase {
+    width: auto;
+  }
+}
+#presentation #top_content .presentation_content .name_and_catchphrase h1 {
   font-family: Elephant;
   font-size: 128px;
   margin: 32px;
   color: #141414;
 }
 @media screen and (max-width: 800px) {
-  #presentation .presentation_content h1 {
+  #presentation #top_content .presentation_content .name_and_catchphrase h1 {
     font-size: 92px;
   }
 }
-#presentation .presentation_content h3 {
+#presentation #top_content .presentation_content .name_and_catchphrase h3 {
   margin: 0px 32px;
   font-size: 36px;
 }
 @media screen and (max-width: 800px) {
-  #presentation .presentation_content h3 {
+  #presentation #top_content .presentation_content .name_and_catchphrase h3 {
     font-size: 28px;
   }
 }
 @media screen and (max-width: 500px) {
-  #presentation .presentation_content h3 {
+  #presentation #top_content .presentation_content .name_and_catchphrase h3 {
     margin: 0px 16px;
   }
 }
-#presentation .presentation_content .illustration {
-  width: 85%;
-  height: auto;
-  margin: auto;
-  margin-top: 96px;
-  border-radius: 16px;
-}
-#presentation .presentation_content .illustration img {
-  width: 100%;
-  height: 100%;
-}
-#presentation .presentation_content .google_play {
+#presentation #top_content .presentation_content .name_and_catchphrase .google_play {
   margin: 64px auto;
   width: 256px;
 }
-#presentation .presentation_content .google_play img {
+#presentation #top_content .presentation_content .name_and_catchphrase .google_play img {
   width: 100%;
   height: auto;
 }
 @media screen and (max-width: 520px) {
-  #presentation .presentation_content .google_play {
+  #presentation #top_content .presentation_content .name_and_catchphrase .google_play {
     margin: 64px auto;
     width: 192px;
   }
+}
+#presentation #top_content .presentation_content .illustration {
+  width: 380px;
+  height: auto;
+}
+#presentation #top_content .presentation_content .illustration img {
+  width: 100%;
+}
+@media screen and (max-width: 880px) {
+  #presentation #top_content .presentation_content .illustration {
+    display: none;
+  }
+}
+#presentation .flower {
+  width: 240px;
+  height: auto;
+  margin-left: auto;
+  margin-right: 0;
+}
+@media screen and (min-width: 880px) {
+  #presentation .flower {
+    display: none;
+  }
+}
+#presentation .flower img {
+  width: 100%;
+  height: 100%;
 }

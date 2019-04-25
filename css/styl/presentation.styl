@@ -1,70 +1,100 @@
 #presentation
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: auto;
-    // height: 1080px;
-
-    @media screen and (max-width: 880px)
-        display: block;
-        // height: 720px;
-
-    .sheet_image
-        width: 256px;
-        min-width: 256px;
-        max-width: 256px;
-        height: 1080px;
-        img
-            width: 100%;
-            height: 100%;
+    #top_content
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: auto;
+        // height: 1080px;
 
         @media screen and (max-width: 880px)
-            display: none;
-
-    .right_sheet
-        transform: scaleX(-1)
-
-    .presentation_content
-        h1
-            font-family: Elephant
-            font-size: 128px
-            margin: 32px;
-            color: rgb(20, 20, 20)
-
-            @media screen and (max-width: 800px)
-                font-size: 92px;
-
-        h3
-            margin: 0px 32px;
-            font-size: 36px;
-            @media screen and (max-width: 800px)
-                font-size: 28px;
-            @media screen and (max-width: 500px)
-                margin: 0px 16px;
-
-        .illustration
-            width: 85%;
+            display: block;
             height: auto;
-            margin: auto;
-            margin-top: 96px;
-            border-radius: 16px;
+            // height: 720px;
+
+        .sheet_image
+            width: 256px;
+            min-width: 256px;
+            max-width: 256px;
+            height: 1080px;
             img
                 width: 100%;
                 height: 100%;
 
-            // @media screen and (max-width: 880px)
-            //     width: 320px;
-            //     height: 180px;
+            @media screen and (max-width: 880px)
+                display: none;
 
-        .google_play
-            margin: 64px auto;
-            width: 256px;
+        .right_sheet
+            transform: scaleX(-1)
 
-            img 
-                width: 100%
+        .presentation_content
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 85%;
+            height: 780px;
+            padding-top: 128px;
+
+            @media screen and (max-width: 880px)
+                display: block;
+                width: 100%;
+                padding-top: 32px;
                 height: auto;
 
-            @media screen and (max-width: 520px)
-                margin: 64px auto;
+            .name_and_catchphrase
+                width: 430px;
 
-                width: 192px;
+                @media screen and (max-width: 880px)
+                    width: auto;
+                    
+                h1
+                    font-family: Elephant
+                    font-size: 128px
+                    margin: 32px;
+                    color: rgb(20, 20, 20)
+
+                    @media screen and (max-width: 800px)
+                        font-size: 92px;
+
+                h3
+                    margin: 0px 32px;
+                    font-size: 36px;
+                    @media screen and (max-width: 800px)
+                        font-size: 28px;
+                    @media screen and (max-width: 500px)
+                        margin: 0px 16px;
+
+                .google_play
+                    margin: 64px auto;
+                    width: 256px;
+
+                    img 
+                        width: 100%
+                        height: auto;
+
+                    @media screen and (max-width: 520px)
+                        margin: 64px auto;
+
+                        width: 192px;
+
+            .illustration
+                width: 380px;
+                height: auto;
+                img
+                    width: 100%;
+
+                @media screen and (max-width: 880px)
+                    display: none;
+
+    .flower
+        @media screen and (min-width: 880px)
+            display: none;
+        
+        width: 240px;
+        height: auto;
+        margin-left: auto;
+        margin-right: 0;
+        img
+            width: 100%;
+            height: 100%;
+
+
