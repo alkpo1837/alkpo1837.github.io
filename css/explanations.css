@@ -84,6 +84,7 @@
   padding-top: 128px;
   padding-bottom: 64px;
   width: 1024px;
+  align-items: center;
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone {
@@ -121,7 +122,6 @@
   display: flex;
   flex-direction: column;
   width: 512px;
-  padding-bottom: 32px;
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone #instructions {

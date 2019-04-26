@@ -29,7 +29,7 @@ body h2 {
   color: #141414;
 }
 body a {
-  color: #662e2d;
+  color: rgba(33,49,134,0.8);
   font-style: bold;
   text-decoration: none;
 }
