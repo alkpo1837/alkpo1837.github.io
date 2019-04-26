@@ -68,3 +68,8 @@ header {
   width: 123px;
   height: 30px;
 }
+@media screen and (max-width: 400px) {
+  .frame_separator {
+    display: none;
+  }
+}

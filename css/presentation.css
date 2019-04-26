@@ -61,23 +61,28 @@
   color: #141414;
   margin: 0;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 480px) {
   #presentation #top_content .presentation_content .name_and_catchphrase h1 {
     font-size: 92px;
   }
 }
+@media screen and (max-width: 340px) {
+  #presentation #top_content .presentation_content .name_and_catchphrase h1 {
+    font-size: 80px;
+  }
+}
 #presentation #top_content .presentation_content .name_and_catchphrase h3 {
-  margin: 0px 32px;
+  margin: 32px 32px;
   font-size: 36px;
 }
 @media screen and (max-width: 800px) {
   #presentation #top_content .presentation_content .name_and_catchphrase h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 340px) {
   #presentation #top_content .presentation_content .name_and_catchphrase h3 {
-    margin: 0px 16px;
+    margin: 16px 16px;
   }
 }
 #presentation #top_content .presentation_content .name_and_catchphrase .google_play {
@@ -112,6 +117,8 @@
   height: auto;
   margin-left: auto;
   margin-right: 0;
+  margin-bottom: -6px;
+  margin-top: 22px;
 }
 @media screen and (min-width: 880px) {
   #presentation .flower {
