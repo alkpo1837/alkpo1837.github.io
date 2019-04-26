@@ -125,12 +125,7 @@
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone #instructions {
-    width: 600px;
-  }
-}
-@media screen and (max-width: 640px) {
-  #explanations #instructions_and_mockup_phone #instructions {
-    width: 440px;
+    width: 420px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -142,12 +137,9 @@
   display: flex;
   flex-direction: row;
   padding-bottom: 48px;
-  margin: 16px;
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone #instructions .instruction_entry {
-    flex-direction: column;
-    align-items: center;
     font-size: 28px;
   }
 }
@@ -159,7 +151,6 @@
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_icon {
-    text-align: center;
     padding-right: 0px;
   }
 }
@@ -169,11 +160,7 @@
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text {
   text-align: left;
-  max-width: 440px;
   padding-top: 4px;
-}
-@media screen and (max-width: 880px) {
-  #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text {
-    text-align: center;
-  }
+  padding-left: 24px;
+  max-width: 300px;
 }
