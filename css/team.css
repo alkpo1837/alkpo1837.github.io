@@ -3,7 +3,7 @@
 }
 #team #all_workers {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0 auto;
   align-content: space-between;
   justify-content: space-between;
@@ -27,7 +27,6 @@
     width: 100%;
     margin: 0 8px;
     align-items: center;
-    width: 320px;
   }
 }
 #team #all_workers .worker {
@@ -36,6 +35,7 @@
   width: 100%;
   color: #0a0a0a;
   font-size: 18px;
+  justify-content: center;
 }
 @media screen and (max-width: 1024px) {
   #team #all_workers .worker {
@@ -45,7 +45,7 @@
 @media screen and (max-width: 880px) {
   #team #all_workers .worker {
     height: auto;
-    padding-bottom: 32px;
+    padding-bottom: 64px;
   }
 }
 #team #all_workers .worker .worker_image {
@@ -56,17 +56,43 @@
   width: 100%;
   height: 100%;
 }
-#team #all_workers .worker .worker_info h2 {
-  margin: 8px;
+#team #all_workers .worker .worker_info {
+  padding-left: 8px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 880px) {
+  #team #all_workers .worker .worker_info {
+    text-align: left;
+  }
+}
+#team #all_workers .worker .worker_info .worker_name {
+  margin: 6px;
+}
+@media screen and (max-width: 880px) {
+  #team #all_workers .worker .worker_info .worker_name {
+    font-size: 32px;
+  }
 }
 #team #all_workers .worker .worker_info ul {
+  margin: 6px;
   padding-left: 0;
   list-style: none;
-  text-align: center;
+}
+@media screen and (max-width: 880px) {
+  #team #all_workers .worker .worker_info ul {
+    font-size: 16px;
+  }
 }
 #team #all_workers .worker .worker_info .website_icon {
   width: 32px;
   height: 32px;
+}
+@media screen and (max-width: 880px) {
+  #team #all_workers .worker .worker_info .website_icon {
+    width: 24px;
+    height: 24px;
+  }
 }
 #team #all_workers .worker .worker_info .websites li {
   display: inline-block;
