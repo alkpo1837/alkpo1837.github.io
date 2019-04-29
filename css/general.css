@@ -29,8 +29,8 @@ body h2 {
   color: #141414;
 }
 body a {
-  color: rgba(33,49,134,0.8);
-  font-style: bold;
+  color: #8d2a1a;
+  font-weight: bold;
   text-decoration: none;
 }
 body a:hover {

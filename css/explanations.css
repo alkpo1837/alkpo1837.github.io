@@ -32,12 +32,13 @@
   font-weight: bold;
   padding: 64px 0;
   padding-bottom: 32px;
+  line-height: 1.1;
 }
 @media screen and (max-width: 500px) {
   #explanations #scan_instructions .scan_marker {
     font-size: 38px;
-    padding: 32px 4px;
-    padding-bottom: 16px;
+    padding: 48px 4px;
+    padding-bottom: 32px;
   }
 }
 #explanations #scan_instructions .rart_marker {
@@ -69,6 +70,11 @@
   margin-top: 32px;
   font-size: 26px;
   color: #626262;
+}
+@media screen and (max-width: 880px) {
+  #explanations #scan_instructions .sub_instruction {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 500px) {
   #explanations #scan_instructions .sub_instruction {
@@ -125,11 +131,6 @@
 }
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone #instructions {
-    width: 420px;
-  }
-}
-@media screen and (max-width: 480px) {
-  #explanations #instructions_and_mockup_phone #instructions {
     width: 320px;
   }
 }
@@ -137,11 +138,6 @@
   display: flex;
   flex-direction: row;
   padding-bottom: 48px;
-}
-@media screen and (max-width: 880px) {
-  #explanations #instructions_and_mockup_phone #instructions .instruction_entry {
-    font-size: 28px;
-  }
 }
 #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_icon {
   width: 48px;
@@ -163,4 +159,15 @@
   padding-top: 4px;
   padding-left: 24px;
   max-width: 300px;
+}
+@media screen and (max-width: 880px) {
+  #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text {
+    padding-top: 8px;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 880px) {
+  #explanations #instructions_and_mockup_phone #instructions .instruction_entry .instruction_text {
+    font-size: 20px;
+  }
 }
