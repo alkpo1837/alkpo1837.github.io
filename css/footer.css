@@ -33,8 +33,12 @@ footer #footer_background {
 footer #footer_background #footer_content {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 520px;
   padding-top: 160px;
+}
+footer #footer_background #footer_content p {
+  margin: 0;
 }
 @media screen and (max-width: 560px) {
   footer #footer_background #footer_content {
@@ -46,6 +50,9 @@ footer #footer_background #footer_content {
 @media screen and (max-width: 340px) {
   footer #footer_background #footer_content {
     width: 240px;
-    padding-top: 64px;
+    padding-top: 68px;
   }
+}
+footer #footer_background #footer_content .contact {
+  padding-left: 8px;
 }
