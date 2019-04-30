@@ -32,11 +32,11 @@
   font-size: 18px;
   align-items: center;
   height: 380px;
-}
-@media screen and (max-width: 1024px) {
-  #team #all_workers .worker {
-    height: 256px;
-  }
+  margin: 24px;
+  padding: 16px;
+  border-radius: 6px;
+  background: #f0f0f0;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
 }
 @media screen and (max-width: 880px) {
   #team #all_workers .worker {
@@ -44,6 +44,10 @@
     padding-bottom: 64px;
     flex-direction: row;
     justify-content: center;
+    margin: auto;
+    border-radius: 0px;
+    box-shadow: none;
+    background: none;
   }
 }
 #team #all_workers .worker .worker_image {
@@ -67,7 +71,7 @@
 }
 #team #all_workers .worker .worker_info .worker_name {
   margin: 6px;
-  font-size: 44px;
+  font-size: 40px;
 }
 @media screen and (max-width: 880px) {
   #team #all_workers .worker .worker_info .worker_name {
