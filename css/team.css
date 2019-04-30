@@ -100,5 +100,6 @@
   }
 }
 #team #all_workers .worker .worker_info .websites li {
+  padding-left: 8px;
   display: inline-block;
 }
