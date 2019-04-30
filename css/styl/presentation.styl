@@ -18,7 +18,7 @@
                 width: 100%;
                 height: 100%;
 
-            @media screen and (max-width: 880px)
+            @media screen and (max-width: 1200px)
                 display: none;
 
         .right_sheet
@@ -31,6 +31,11 @@
             width: 85%;
             height: 480px;
             padding-top: 128px;
+
+            @media screen and (max-width: 1200px)
+                padding-top: 64px;
+                width: 100%;
+                padding-bottom: 64px
 
             @media screen and (max-width: 880px)
                 display: block;
@@ -62,8 +67,9 @@
                     margin: 32px 32px;
                     font-size: 36px;
                     @media screen and (max-width: 800px)
-                        font-size: 24px;
+                        font-size: 30px
                     @media screen and (max-width: 340px)
+                        font-size: 26px;
                         margin: 16px 16px;
 
                 .google_play

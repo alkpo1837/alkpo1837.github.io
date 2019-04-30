@@ -43,6 +43,7 @@
     height: auto;
     padding-bottom: 64px;
     flex-direction: row;
+    justify-content: center;
   }
 }
 #team #all_workers .worker .worker_image {
