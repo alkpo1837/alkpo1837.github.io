@@ -62,10 +62,12 @@
   #team #all_workers .worker .worker_info {
     padding-left: 8px;
     text-align: left;
+    width: 160px;
   }
 }
 #team #all_workers .worker .worker_info .worker_name {
   margin: 6px;
+  font-size: 44px;
 }
 @media screen and (max-width: 880px) {
   #team #all_workers .worker .worker_info .worker_name {
