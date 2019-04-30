@@ -63,6 +63,8 @@ header {
   background-size: contain;
   width: 2048px;
   height: 30px;
+  margin-left: -1px;
+  margin-right: -1px;
 }
 .frame_separator .right_corner {
   width: 123px;
