@@ -20,7 +20,7 @@
   width: 100%;
   height: 100%;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   #presentation #top_content .sheet_image {
     display: none;
   }
@@ -36,7 +36,7 @@
   height: 480px;
   padding-top: 128px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   #presentation #top_content .presentation_content {
     padding-top: 64px;
     width: 100%;

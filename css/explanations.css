@@ -92,6 +92,11 @@
   width: 1024px;
   align-items: center;
 }
+@media screen and (max-width: 1200px) {
+  #explanations #instructions_and_mockup_phone {
+    width: 840px;
+  }
+}
 @media screen and (max-width: 880px) {
   #explanations #instructions_and_mockup_phone {
     flex-direction: column-reverse;
