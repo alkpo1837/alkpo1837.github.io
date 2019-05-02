@@ -73,10 +73,12 @@
 #team #all_workers .worker .worker_info .worker_name {
   margin: 6px;
   font-size: 40px;
+  padding-top: 8px;
 }
 @media screen and (max-width: 880px) {
   #team #all_workers .worker .worker_info .worker_name {
     font-size: 32px;
+    padding-top: 0px;
   }
 }
 #team #all_workers .worker .worker_info ul {
